@@ -4,12 +4,9 @@ In this folder:
 1. main.py:                      	   Run main function to start
 2. model_building.py                   script contains model related function and model architechture/hyperparameters
 3. functions.py                        script contains data processing and tool functions
-4. New_result.pdf                      pdf file contains the recent running results. If you successfully run the main.py, you will get an updated New_result.pdf 
-5. Energy_classification_report etc.   examples of running result. If you don't want to run the model youself, you can check these file for reference
-6. Dataset                             a folder contains all the related dataset
-7. environment.yml/requirements.txt    contains the complete package information to build a virtual environment using conda
-8. report.csv						   contains the predicted class, true clas and corresponding daily return
-9. model_weight						   contains pre-trained model weight
+4. Dataset                             a folder contains all the related dataset
+5. environment.yml/requirements.txt    contains the complete package information to build a virtual environment using conda
+6. model_weight						   contains pre-trained model weight
 
 
 You can follow these steps to create virtual environment, install necessary package and run the script.
@@ -34,7 +31,7 @@ and autocorrelation) do not change over time.
 
 When such properties evolve over time, it means the underlying data-generating process has changed and the patterns the model learned from may 
 no longer apply. When working with times series day, the very first step EDA (exploratory data analysis) is to understand the stationarity of 
-the data with visuals and statistical analysis. Training a machine learning model,  - Stationarizing the Data is a common  in time series analysis. 
+the data with visuals and statistical analysis. Training a machine learning model, - Stationarizing the Data is a common  in time series analysis. 
 Making the data stationary (e.g., through differencing or using rolling statistics) can help many models perform better, especially traditional 
 statistical models.
 - RNNs (Recurrent Neural Networks) and LSTMs (Long Short-Term Memory networks) are designed to work with sequential data and can capture long-term 
